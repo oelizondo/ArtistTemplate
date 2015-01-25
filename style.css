@@ -30,61 +30,93 @@ body {
   text-align: center;
   letter-spacing: 0.7em; }
 
+#container {
+  height: 150px;
+  width: 100%; }
+
 #about {
   display: inline-block;
   width: 24.8%;
   height: 150px;
   background: white;
-  text-align: center; }
+  text-align: center;
+  transition: 0.3s; }
   #about a {
     font-size: 1.5em;
     text-decoration: none;
     color: #191919;
     letter-spacing: 0.3em;
     position: relative;
-    top: 55px; }
+    top: 55px;
+    transition: 0.3s; }
+
+#about:hover {
+  background: #191919; }
+  #about:hover a {
+    color: white; }
 
 #showcase {
   display: inline-block;
   width: 24.8%;
   height: 150px;
   background: white;
-  text-align: center; }
+  text-align: center;
+  transition: 0.3s; }
   #showcase a {
     font-size: 1.5em;
     text-decoration: none;
     color: #191919;
     letter-spacing: 0.3em;
     position: relative;
-    top: 55px; }
+    top: 55px;
+    transition: 0.3s; }
+
+#showcase:hover {
+  background: #191919; }
+  #showcase:hover a {
+    color: white; }
 
 #value {
   display: inline-block;
   width: 24.8%;
   height: 150px;
   background: white;
-  text-align: center; }
+  text-align: center;
+  transition: 0.3s; }
   #value a {
     font-size: 1.5em;
     text-decoration: none;
     color: #191919;
     letter-spacing: 0.3em;
     position: relative;
-    top: 55px; }
+    top: 55px;
+    transition: 0.3s; }
+
+#value:hover {
+  background: #191919; }
+  #value:hover a {
+    color: white; }
 
 #contact {
   display: inline-block;
   width: 25%;
   height: 150px;
   background: white;
-  text-align: center; }
+  text-align: center;
+  transition: 0.3s; }
   #contact a {
     font-size: 1.5em;
     text-decoration: none;
     color: #191919;
     letter-spacing: 0.3em;
     position: relative;
-    top: 55px; }
+    top: 55px;
+    transition: 0.3s; }
+
+#contact:hover {
+  background: #191919; }
+  #contact:hover a {
+    color: white; }
 
 #bio {
   display: inline-block;
