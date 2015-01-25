@@ -14,9 +14,9 @@ body {
 
 .name {
   position: relative;
-  top: 100px;
+  top: 200px;
   font-size: 72px;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: 0.05em;
   color: white;
   text-align: center; }
@@ -27,7 +27,7 @@ body {
 
 .desc {
   position: relative;
-  top: 150px;
+  top: 250px;
   color: white;
   text-align: center;
   letter-spacing: 0.7em; }
@@ -137,6 +137,11 @@ body {
     max-height: 500px;
     text-align: right;
     color: #191919; }
+
+#gallery {
+  height: 700px;
+  width: 100%;
+  background: #191919; }
 
 footer {
   display: inline-block;
