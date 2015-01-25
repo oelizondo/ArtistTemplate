@@ -137,29 +137,37 @@ body {
     color: #191919; }
 
 #gallery {
-  height: 700px;
+  height: 800px;
   width: 100%;
   background: white;
   display: inline; }
   #gallery .title {
     margin-left: 100px;
+    margin-bottom: 30px;
     letter-spacing: 0.5em; }
   #gallery .tedtitle {
     display: inline;
-    text-align: center;
-    margin-left: 100px;
+    margin-left: 150px;
+    margin-right: 170px;
     letter-spacing: 0.4em;
     font-size: 20px; }
 
 #gallerycont {
-  margin-top: 30px;
-  background: white;
-  transition: 0.3s; }
+  margin-top: 50px;
+  background: white; }
   #gallerycont img {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
     height: 600px;
-    width: 33%; }
+    width: 30%; }
   #gallerycont .gallerylinks:hover {
     opacity: 0.5; }
+
+#skillset {
+  height: 700px;
+  width: 100%;
+  background: #e5e5e5; }
 
 footer {
   display: inline-block;
