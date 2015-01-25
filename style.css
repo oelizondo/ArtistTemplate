@@ -36,7 +36,8 @@ body {
 
 #about {
   display: inline-block;
-  width: 24.8%;
+  margin-left: 65px;
+  width: 20%;
   height: 150px;
   background: white;
   text-align: center;
@@ -57,7 +58,8 @@ body {
 
 #showcase {
   display: inline-block;
-  width: 24.8%;
+  margin-left: 65px;
+  width: 20%;
   height: 150px;
   background: white;
   text-align: center;
@@ -78,7 +80,8 @@ body {
 
 #value {
   display: inline-block;
-  width: 24.8%;
+  margin-left: 65px;
+  width: 20%;
   height: 150px;
   background: white;
   text-align: center;
@@ -99,7 +102,8 @@ body {
 
 #contact {
   display: inline-block;
-  width: 25%;
+  margin-left: 65px;
+  width: 20%;
   height: 150px;
   background: white;
   text-align: center;
@@ -123,9 +127,20 @@ body {
   width: 100%;
   height: 750px;
   background: #e5e5e5; }
+  #bio .right {
+    text-align: left; }
+  #bio #me {
+    width: 25%;
+    position: relative;
+    top: 150px;
+    left: 370px;
+    text-align: right;
+    color: #191919;
+    display: inline-block;
+    padding: 0.5em;
+    border: #191919 solid 2px; }
 
 footer {
-  display: inline-block;
   width: 100%;
   height: 150px;
   background-image: url("images/intro2.jpg");
