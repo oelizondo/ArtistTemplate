@@ -1,5 +1,5 @@
 body {
-  margin-top: -10px;
+  margin-top: -100px;
   margin-bottomg: 0px;
   margin-left: 0px;
   margin-right: 0px;
@@ -138,36 +138,26 @@ body {
 
 #gallery {
   height: 800px;
-  width: 100%;
-  background: white;
-  display: inline; }
+  background: white; }
   #gallery .title {
     margin-left: 100px;
-    margin-bottom: 30px;
     margin-top: 100px;
     letter-spacing: 0.5em; }
 
-#center {
-  text-align: center;
-  margin: 50px; }
-  #center .tedtitle {
-    display: inline;
-    margin-left: 100px;
-    margin-right: 100px;
-    letter-spacing: 0.4em;
-    font-size: 20px; }
-
 #gallerycont {
+  margin: 0 auto;
   margin-top: 50px;
-  background: white; }
-  #gallerycont img {
-    margin: 0 auto;
-    margin-left: 35px;
-    margin-bottom: 50px;
-    height: 500px;
-    width: 30%; }
-  #gallerycont .gallerylinks:hover {
-    opacity: 0.5; }
+  background: white;
+  height: 600px;
+  width: 1500px; }
+
+.contentbox {
+  width: 30%;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  margin: 1%;
+  float: left; }
 
 #skillset {
   height: 700px;
