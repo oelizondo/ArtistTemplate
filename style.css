@@ -11,7 +11,8 @@ body {
 #header {
   height: 650px;
   width: 100%;
-  background-image: url("images/intro.jpg"); }
+  background-image: url("images/intro.jpg");
+  opacity: 0; }
 
 .name {
   position: relative;
@@ -38,6 +39,7 @@ body {
   width: 100%; }
 
 #about {
+  opacity: 0;
   width: 100%;
   float: left;
   height: 60px;
@@ -59,6 +61,7 @@ body {
     color: white; }
 
 #showcase {
+  opacity: 0;
   width: 100%;
   float: left;
   height: 60px;
@@ -80,6 +83,7 @@ body {
     color: white; }
 
 #value {
+  opacity: 0;
   width: 100%;
   float: left;
   height: 60px;
@@ -101,6 +105,7 @@ body {
     color: white; }
 
 #contact {
+  opacity: 0;
   width: 100%;
   float: left;
   height: 60px;
@@ -131,7 +136,10 @@ body {
     top: 35px;
     text-align: left;
     font-size: 20px;
-    letter-spacing: 0.5em; }
+    letter-spacing: 0.5em;
+    opacity: 0; }
+  #bio .para {
+    opacity: 0; }
   #bio #me {
     float: left;
     width: 55%;
@@ -143,6 +151,7 @@ body {
     color: #191919; }
 
 .contentbox1 {
+  opacity: 0;
   width: 30%;
   height: 450px;
   position: relative;
@@ -172,6 +181,25 @@ body {
   width: 94%; }
 
 .contentbox {
+  opacity: 0;
+  width: 30%;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  margin: 1%;
+  float: left; }
+
+.contentbox2 {
+  opacity: 0;
+  width: 30%;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  margin: 1%;
+  float: left; }
+
+.contentbox3 {
+  opacity: 0;
   width: 30%;
   height: 450px;
   overflow: hidden;
@@ -200,12 +228,15 @@ body {
   height: 300px; }
 
 .list {
+  margin: 0 auto;
   float: left;
   height: 200px;
   width: 350px;
   overflow: hidden; }
 
 .listright {
+  margin: 0 auto;
+  float: left;
   position: relative;
   left: 150px;
   height: 200px;
