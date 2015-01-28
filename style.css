@@ -174,7 +174,7 @@ body {
   position: relative;
   top: 50px;
   left: 50px;
-  width: 150px;
+  width: 250px;
   height: 60px;
   letter-spacing: 0.5em;
   font-weight: 80; }
@@ -202,6 +202,49 @@ body {
   letter-spacing: 0.2em;
   font-weight: 200;
   line-height: 2; }
+
+#contacto {
+  height: 600px;
+  background: white; }
+
+#mail {
+  float: left;
+  width: 40%;
+  padding: 3%;
+  input: hover;
+    input-border: 1px solid #191919; }
+  #mail .ne {
+    width: 300px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    line-height: 5;
+    display: block;
+    letter-spacing: 0.1em; }
+  #mail .submit {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    line-height: 5;
+    display: block;
+    letter-spacing: 0.1em; }
+
+#logos {
+  float: left;
+  width: 40%;
+  height: 400px;
+  padding: 3%; }
+
+li {
+  list-style: none;
+  margin-bottom: 55px;
+  margin-top: 55px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 18px;
+  font-weight: 50; }
+
+a {
+  text-decoration: none;
+  color: #191919; }
 
 footer {
   display: inline-block;
