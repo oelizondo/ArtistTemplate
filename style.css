@@ -150,7 +150,7 @@ body {
   margin: 1%;
   float: right; }
   .contentbox1 img {
-    margin-left: 50px;
+    margin-left: 45px;
     margin-top: 50px; }
 
 #gallery {
@@ -202,14 +202,14 @@ body {
 .list {
   float: left;
   height: 200px;
-  width: 400px;
+  width: 350px;
   overflow: hidden; }
 
 .listright {
-  margin-left: 150px;
-  float: left;
+  position: relative;
+  left: 150px;
   height: 200px;
-  width: 400px;
+  width: 350px;
   overflow: hidden; }
 
 .par {
@@ -245,9 +245,11 @@ body {
 
 #logos {
   float: left;
-  width: 40%;
+  width: 30%;
   height: 400px;
-  padding: 3%; }
+  padding: 3%;
+  position: relative;
+  left: 50px; }
 
 li {
   list-style: none;
