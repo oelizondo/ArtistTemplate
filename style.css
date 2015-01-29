@@ -139,6 +139,8 @@ body {
     letter-spacing: 0.5em;
     opacity: 0; }
   #bio .para {
+    position: relative;
+    left: 50px;
     opacity: 0; }
   #bio #me {
     float: left;
@@ -157,7 +159,7 @@ body {
   position: relative;
   top: 150px;
   margin: 1%;
-  float: right; }
+  float: left; }
   .contentbox1 img {
     margin-left: 45px;
     margin-top: 50px; }
@@ -182,29 +184,29 @@ body {
 
 .contentbox {
   opacity: 0;
-  width: 30%;
+  width: 350px;
   height: 450px;
   overflow: hidden;
   position: relative;
-  margin: 1%;
+  margin: 2%;
   float: left; }
 
 .contentbox2 {
   opacity: 0;
-  width: 30%;
+  width: 350px;
   height: 450px;
   overflow: hidden;
   position: relative;
-  margin: 1%;
+  margin: 2%;
   float: left; }
 
 .contentbox3 {
   opacity: 0;
-  width: 30%;
+  width: 350px;
   height: 450px;
   overflow: hidden;
   position: relative;
-  margin: 1%;
+  margin: 2%;
   float: left; }
 
 #skillset {
@@ -223,22 +225,22 @@ body {
 #skillcont {
   position: relative;
   top: 100px;
-  width: 80%;
+  width: 55%;
   margin: 0 auto;
   height: 300px; }
 
 .list {
   margin: 0 auto;
   float: left;
-  height: 200px;
+  height: 250px;
   width: 350px;
   overflow: hidden; }
 
 .listright {
-  float: left;
+  float: right;
   position: relative;
   left: 200px;
-  height: 200px;
+  height: 250px;
   width: 350px;
   overflow: hidden; }
 
@@ -278,16 +280,17 @@ body {
   width: 30%;
   height: 400px;
   position: relative;
-  left: 50px; }
+  left: 150px;
+  top: 70px; }
 
 li {
   list-style: none;
   margin-bottom: 55px;
   margin-top: 55px;
   text-transform: lowercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.09em;
   font-size: 18px;
-  font-weight: 50; }
+  font-weight: 30; }
 
 a {
   text-decoration: none;
