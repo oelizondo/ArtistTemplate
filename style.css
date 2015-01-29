@@ -133,7 +133,7 @@ body {
   background: #e5e5e5; }
   #bio .right {
     position: relative;
-    top: 35px;
+    top: 15px;
     text-align: left;
     font-size: 20px;
     letter-spacing: 0.5em;
@@ -145,7 +145,7 @@ body {
   #bio #me {
     float: left;
     width: 55%;
-    margin: 50px;
+    margin-left: 55px;
     line-height: 180%;
     letter-spacing: 0.1em;
     max-height: 500px;
@@ -157,9 +157,9 @@ body {
   width: 30%;
   height: 450px;
   position: relative;
-  top: 150px;
+  top: 100px;
   margin: 1%;
-  float: left; }
+  float: right; }
   .contentbox1 img {
     margin-left: 45px;
     margin-top: 50px; }
