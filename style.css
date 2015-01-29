@@ -184,29 +184,32 @@ body {
 
 .contentbox {
   opacity: 0;
-  width: 350px;
+  width: 30%;
   height: 450px;
   overflow: hidden;
   position: relative;
-  margin: 2%;
+  left: 30px;
+  margin: 1%;
   float: left; }
 
 .contentbox2 {
   opacity: 0;
-  width: 350px;
+  width: 30%;
   height: 450px;
   overflow: hidden;
   position: relative;
-  margin: 2%;
+  left: 30px;
+  margin: 1%;
   float: left; }
 
 .contentbox3 {
   opacity: 0;
-  width: 350px;
+  width: 30%;
   height: 450px;
   overflow: hidden;
   position: relative;
-  margin: 2%;
+  left: 30px;
+  margin: 1%;
   float: left; }
 
 #skillset {
